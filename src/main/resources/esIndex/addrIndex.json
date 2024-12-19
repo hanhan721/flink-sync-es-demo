@@ -1,0 +1,204 @@
+{
+  "mapping": {
+    "properties": {
+      "addrState": {
+        "type": "long"
+      },
+      "buildingId": {
+        "type": "long"
+      },
+      "cityId": {
+        "type": "long"
+      },
+      "code": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "communityId": {
+        "type": "long"
+      },
+      "countyId": {
+        "type": "long"
+      },
+      "createArea": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "createDept": {
+        "type": "long"
+      },
+      "createTime": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "createUser": {
+        "type": "long"
+      },
+      "floorId": {
+        "type": "long"
+      },
+      "fullName": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "groupId": {
+        "type": "long"
+      },
+      "isDeleted": {
+        "type": "long"
+      },
+      "lastThreeUnit": {
+        "type": "long"
+      },
+      "lastThreeValue": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "level": {
+        "type": "long"
+      },
+      "location": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "name": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "namePinyin": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "parentId": {
+        "type": "long"
+      },
+      "path": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "polygon": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "provinceId": {
+        "type": "long"
+      },
+      "remark": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "roomId": {
+        "type": "long"
+      },
+      "shorthandCode": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "status": {
+        "type": "long"
+      },
+      "streetId": {
+        "type": "long"
+      },
+      "tenantGroup": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "tenantId": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "townId": {
+        "type": "long"
+      },
+      "unitId": {
+        "type": "long"
+      },
+      "updateTime": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "updateUser": {
+        "type": "long"
+      },
+      "villageId": {
+        "type": "long"
+      }
+    }
+  }
+}
