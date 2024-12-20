@@ -20,8 +20,6 @@ public class SyncStrategyFactory {
         switch (tableName) {
             case "rsc_address":
                 return UserAddrSyncStrategy.getInstance(esClient);
-/*            case FlinkTableConstant.CERT_TABLE:
-                return CertSyncStrategy.getInstance(esClient);*/
             default:
                 return null;
         }
