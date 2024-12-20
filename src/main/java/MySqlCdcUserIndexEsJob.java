@@ -79,7 +79,7 @@ es-schema=http
 
         try {
             // 在Flink任务执行前创建 Elasticsearch 索引
-           EsClientSingleton.createIndexIfNotExists("address","esIndex/addrIndex.json", sinkConf);
+           EsClientSingleton.createIndexIfNotExists("tcis_address","esIndex/addrIndex.json", sinkConf);
         } catch (IOException e) {
             System.out.println(e);
             System.exit(1); // 如果索引创建失败，停止程序
