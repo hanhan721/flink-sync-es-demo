@@ -29,8 +29,8 @@ es-schema=http
 ```
 ## 2.修改关于索引相关的所有字段
 ### 包括以下文件
-resource/esIndex/addrIndex.json
-src/main/java/MySqlCdcUserIndexEsJob.java
-src/main/java/strategy/SyncStrategyFactory.java
-src/main/java/strategy/impl/UserAddrSyncStrategy.java
-src/main/java/es/entity/EsAddressEntity.java
+resource/esIndex/addrIndex.json  
+src/main/java/MySqlCdcUserIndexEsJob.java  
+src/main/java/strategy/SyncStrategyFactory.java  
+src/main/java/strategy/impl/UserAddrSyncStrategy.java  
+src/main/java/es/entity/EsAddressEntity.java  
